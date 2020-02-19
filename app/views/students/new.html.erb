@@ -1,1 +1,6 @@
 <%= form_tag student_path do %>
+<label>Student First Name:</label><br>
+<%= text_field_tag :'student[first_name]' %><br>
+<label>Student Last Name:</label><br>
+<%= text_field_tag :'student[last_name]' %><br>
+<% end %>
